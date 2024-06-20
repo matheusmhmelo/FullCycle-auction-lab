@@ -1,0 +1,12 @@
+###
+POST http://localhost:8080/bid
+Content-Type: application/json
+
+{
+  "user_id": "ff2dc878-97c4-43f6-8bf6-33d12f31ce24",
+  "auction_id": "ff2dc878-97c4-43f6-8bf6-33d12f31ce24",
+  "amount": 10.0
+}
+
+###
+GET http://localhost:8080/bid/ff2dc878-97c4-43f6-8bf6-33d12f31ce24

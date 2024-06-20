@@ -1,0 +1,15 @@
+GET http://localhost:8080/auction?status=0
+
+###
+POST http://localhost:8080/auction
+Content-Type: application/json
+
+{
+  "product_name": "car",
+  "category": "vehicles",
+  "description": "super fast car",
+  "condition": 0
+}
+
+###
+GET http://localhost:8080/auction/f671cc31-8943-474f-b5ba-d8090fd014db
