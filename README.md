@@ -29,7 +29,7 @@ Content-Type: application/json
 
 2. Para ver todos os detalhes da action utilize o seguinte endpoint:
 ```http request
-GET http://localhost:8080/auction/f671cc31-8943-474f-b5ba-d8090fd014db
+GET http://localhost:8080/auction/{auction-id}
 ```
 
 3. Após o tempo definido no arquivo `.env` a auction terá o status atualizado para `1`, o que significa `Completed`.
